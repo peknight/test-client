@@ -81,7 +81,7 @@ public class BasicInputDispatcher implements InputDispatcher {
                 info();
                 return null;
             case EXIT:
-                homeShellState.setFinalize(true);
+                homeShellState.setFinalized(true);
                 System.exit(0);
                 return input;
             case BEAN_CALL:
